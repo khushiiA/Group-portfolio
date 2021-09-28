@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #EED3FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 700px;
+  background-color: white;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left{
+  position: relative;
+  background: #5E0099;
+  padding: 40px;
+}
+.Name{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.Name .img_a{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow:hidden;
+}
+
+.Name .img_a img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.Name h2{
+  color: white;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.Name h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.contactInfo{
+  padding-top: 40px;
+}
+.title{
+  color:white ;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+}
+
+.contact ul{
+  position:relative;
+}
+.contact ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contact ul li .icon{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: white;
+}
+
+.contact ul li span{
+  color: #fff;
+  font-weight: 300;
+}
+
+.education li{
+  color: white;
+  margin-bottom: 15px;
+}
+
+.year{
+  color: white;
+  font-weight: 500;
+}
+
+.Done{
+  color: white;
+  font-weight: 500;
+}
+
+.name{
+  color: white;
+  font-weight: 300;
+}
+
+.container .right{
+  position: relative;
+  background: white;
+  padding: 40px;
+}
+
+.title_2{
+  color: #5E0099;
+}
+
+.bar{
+margin: 10px 0;
+position: relative;
+width: 100%;
+display: grid;
+grid-template-columns: 150px 1fr;
+justify-content:center;
+align-items: center;
+}
+.skills .bar h4
+{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.skills .bar .percentage
+{
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #DADADA;
+}
+
+.skills .bar .percentage div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #5E0099;
+}
+
+.int{
+  margin: 10px 0;
+}
+
+.tr{
+  margin: 10px 0;
+}
+h3{
+  color: #5E0099;
+}

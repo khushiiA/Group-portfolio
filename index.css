@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEEEEE;
+  background-image: url("img/bg2.jpg");
+   padding: 20px;
+  font-family: Asrial;
+  font-family: 'Karla', sans-serif;
+}
+.arrow{
+  display: inline;
+}
+.main {
+  max-width: 80%;
+  margin: auto;
+}
+h3 ,p{
+  color: white;
+  margin-bottom: 8px;
+}
+p{
+  font-size: 22px;
+}
+
+#team_name{
+  font-family: 'Libre Baskerville', serif;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  word-break: keep-all;
+}
+#heading{
+  font-family: 'Libre Baskerville', serif;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  word-break: break-all;
+}
+#intro{
+  font-family: 'Libre Baskerville', serif;
+}
+.name{
+  color: white;
+  margin-bottom: 5px;
+}
+
+.row {
+  margin: auto;
+}
+
+.row, .row > .column {
+  padding: 8px;
+}
+
+.column {
+  background-color: #F3EEEC;
+  float: left;
+  width: 24%;
+  margin: 5px;
+  height: 500px;;
+}
+
+img{
+  padding: 10px 0;
+  height: 225px;
+}
+#khushi{
+  background-color: #F19243;
+}
+#anweasha{
+  background-color: #F1437F;
+}
+#aryan{
+  background-color: #33CFCE;
+}
+#hasan{
+  background-color: #9C33CF;
+}
+
+#anweasha:hover{
+  box-shadow: 10px 10px 5px grey;
+  cursor: pointer;
+}
+#khushi:hover{
+  box-shadow: 10px 10px 5px grey;
+  cursor: pointer;
+}
+#aryan:hover{
+  box-shadow: 10px 10px 5px grey;
+  cursor: pointer;
+}
+#hasan:hover{
+  box-shadow: 10px 10px 5px grey;
+  cursor: pointer;
+}
+.link{
+  margin: auto;
+  border-radius: 45%;
+  margin-top: 20px;
+  text-align: center;
+  width: 70%;
+  background-color: white;
+}
+.link:hover{
+  box-shadow: 5px 5px grey;
+}
+a{
+  text-decoration: none;
+  width: 10px;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
